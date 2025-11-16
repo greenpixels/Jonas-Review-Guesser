@@ -7,7 +7,6 @@
     });
     let pathParts = new URL(response.url).pathname.split("/").filter(entry => entry.trim().length > 0)
     let appId = pathParts.at(-1)
-    console.log(pathParts)
     return appId
   }
 
