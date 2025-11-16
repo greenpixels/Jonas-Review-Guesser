@@ -68,7 +68,7 @@
       header.querySelector("h2.pageheader") || header;
 
     // Wrap both buttons in a simple row
-    const pureBtn = makeNextGameButton("Next");
+    const pureBtn = makeNextGameButton("Next Game");
 
     const row = document.createElement("div");
     row.style.marginTop = "10px";
